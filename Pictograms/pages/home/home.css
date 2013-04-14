@@ -45,21 +45,26 @@ aside {
     width: 10%;
 }
 
-    .picture option {
-        margin-left: 5%;
-        display:block;
-        float:left;
-    }
+.picture.option:first-of-type {
+    margin-left:9em;
+}
 
 
 .app-exit {
     float:right;
 }
 
+article h2 {
+    height: 2em;
+    width: 85%;
+    display: block;
+    float:left;
+}
+
 article span {
     width:13.5%;
     margin-right: 5%;
-    margin-bottom:5em;
+    margin-bottom:1em;
     float:left;
     display:block;
 }
